@@ -14,6 +14,7 @@ SOLUTION
 104743
 
 Copyright (c) 2012, T. Zengerink
+See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
 """
 
 from profiler import Profiler
