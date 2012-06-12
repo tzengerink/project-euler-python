@@ -39,7 +39,9 @@ def proper_divisors(n):
             d.extend([i, n / i])
     if not n**.5 % 1:
         d.append(n)
-    return filter(lambda x: x != n, d)
+    if n in d:
+        d.remove(n)
+    return d
 
 
 def amicable_numbers(n):
