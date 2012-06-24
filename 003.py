@@ -1,21 +1,21 @@
 #!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
-PROBLEM 3
----------
-The prime factors of 13195 are 5, 7, 13 and 29.
-What is the largest prime factor of the number 600851475143 ?
+    PROBLEM 3
+    ---------
+    The prime factors of 13195 are 5, 7, 13 and 29.
+    What is the largest prime factor of the number 600851475143 ?
 
-Copyright (c) Project Euler
-See: http://projecteuler.net/copyright
+    Copyright (c) Project Euler
+    See: http://projecteuler.net/copyright
 
-SOLUTION
---------
-6857
+    SOLUTION
+    --------
+    6857
 
-Copyright (c) 2012, T. Zengerink
-See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
+    Copyright (c) 2012, T. Zengerink
+    See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
 """
-
 from profiler import Profiler
 
 

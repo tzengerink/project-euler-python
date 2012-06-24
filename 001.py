@@ -1,22 +1,22 @@
 #!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
-PROBLEM 1
----------
-If we list all the natural numbers below 10 that are multiples of 3 or 5, we get
-3, 5, 6 and 9. The sum of these multiples is 23.
-Find the sum of all the multiples of 3 or 5 below 1000.
+    PROBLEM 1
+    ---------
+    If we list all the natural numbers below 10 that are multiples of 3 or 5, we
+    get 3, 5, 6 and 9. The sum of these multiples is 23.
+    Find the sum of all the multiples of 3 or 5 below 1000.
 
-Copyright (c) Project Euler
-See: http://projecteuler.net/copyright
+    Copyright (c) Project Euler
+    See: http://projecteuler.net/copyright
 
-SOLUTION
---------
-233168
+    SOLUTION
+    --------
+    233168
 
-Copyright (c) 2012, T. Zengerink
-See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
+    Copyright (c) 2012, T. Zengerink
+    See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
 """
-
 from profiler import Profiler
 
 

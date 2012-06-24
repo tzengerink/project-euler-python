@@ -1,8 +1,11 @@
 #!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
-PROBLEM 8
----------
-Find the greatest product of five consecutive digits in the 1000-digit number.
+    PROBLEM 8
+    ---------
+    Find the greatest product of five consecutive digits in the 1000-digit
+    number.
+
     7316717653133062491922511967442657474235534919493496983520312774506326239578
     3180169848018694788518438586156078911294949545950173795833195285320880551112
     5406987471585238630507156932909632952274430435576689664895044524452316173185
@@ -18,17 +21,16 @@ Find the greatest product of five consecutive digits in the 1000-digit number.
     0940507754100225698315520005593572972571636269561882670428252483600823257530
     420752963450
 
-Copyright (c) Project Euler
-See: http://projecteuler.net/copyright
+    Copyright (c) Project Euler
+    See: http://projecteuler.net/copyright
 
-SOLUTION
---------
-40824
+    SOLUTION
+    --------
+    40824
 
-Copyright (c) 2012, T. Zengerink
-See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
+    Copyright (c) 2012, T. Zengerink
+    See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
 """
-
 from profiler import Profiler
 
 

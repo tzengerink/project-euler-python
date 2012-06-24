@@ -1,22 +1,22 @@
 #!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
-PROBLEM 7
----------
-By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that
-the 6th prime is 13.
-What is the 10 001st prime number?
+    PROBLEM 7
+    ---------
+    By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see
+    that the 6th prime is 13.
+    What is the 10 001st prime number?
 
-Copyright (c) Project Euler
-See: http://projecteuler.net/copyright
+    Copyright (c) Project Euler
+    See: http://projecteuler.net/copyright
 
-SOLUTION
---------
-104743
+    SOLUTION
+    --------
+    104743
 
-Copyright (c) 2012, T. Zengerink
-See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
+    Copyright (c) 2012, T. Zengerink
+    See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
 """
-
 from profiler import Profiler
 
 

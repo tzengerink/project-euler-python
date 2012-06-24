@@ -1,25 +1,30 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 """
-Copyright (c) 2012, T. Zengerink
-See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
-"""
+    PROFILER
+    --------
+    Profile the execution of an algoritm. Example usage:
 
+    >>> Profiler.start()
+    >>> [(x + 10) for x in range(10)]
+    >>> Profiler.report()
+
+    Copyright (c) 2012, T. Zengerink
+    See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
+"""
 import time
 
 
 class Profiler:
-    """
-    Profile the execution of an algoritm. Example usage:
-    >>> Profiler.start()
-    >>> [(x + 10) for x in range(10)]
-    >>> Profiler.report()
-    """
 
     # Start time
     begin = 0
 
     # End time
     end = 0
+
+    # Template
+    template = "- - -\n\rIt took %.6f seconds to run"
 
     @staticmethod
     def start():
@@ -38,9 +43,7 @@ class Profiler:
     @staticmethod
     def report():
         """Print report off the time of execution."""
-        diff = (Profiler.stop() - Profiler.start())
-        print("- - -")
-        print("It took %.6f seconds to run" % diff)
+        print(Profiler.template % (Profiler.stop() - Profiler.start()))
 
 
 if __name__ != "__main__":

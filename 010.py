@@ -1,21 +1,21 @@
 #!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
-PROBLEM 10
-----------
-The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
-Find the sum of all the primes below two million.
+    PROBLEM 10
+    ----------
+    The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+    Find the sum of all the primes below two million.
 
-Copyright (c) Project Euler
-See: http://projecteuler.net/copyright
+    Copyright (c) Project Euler
+    See: http://projecteuler.net/copyright
 
-SOLUTION
---------
-142913828922
+    SOLUTION
+    --------
+    142913828922
 
-Copyright (c) 2012, T. Zengerink
-See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
+    Copyright (c) 2012, T. Zengerink
+    See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
 """
-
 from profiler import Profiler
 
 

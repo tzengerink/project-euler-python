@@ -1,24 +1,24 @@
 #!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
-PROBLEM 9
----------
-A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
-    a**2 + b**2 = c**2
-For example, 3**2 + 4**2 = 9 + 16 = 25 = 5**2.
-There exists exactly one Pythagorean triplet for which a + b + c = 1000.
-Find the product abc
+    PROBLEM 9
+    ---------
+    A Pythagorean triplet is a set of three natural numbers, a < b < c, for
+    which, a**2 + b**2 = c**2
+    For example, 3**2 + 4**2 = 9 + 16 = 25 = 5**2.
+    There exists exactly one Pythagorean triplet for which a + b + c = 1000.
+    Find the product abc
 
-Copyright (c) Project Euler
-See: http://projecteuler.net/copyright
+    Copyright (c) Project Euler
+    See: http://projecteuler.net/copyright
 
-SOLUTION
---------
-31875000
+    SOLUTION
+    --------
+    31875000
 
-Copyright (c) 2012, T. Zengerink
-See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
+    Copyright (c) 2012, T. Zengerink
+    See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
 """
-
 from profiler import Profiler
 
 

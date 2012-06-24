@@ -1,23 +1,23 @@
 #!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
-PROBLEM 5
----------
-2520 is the smallest number that can be divided by each of the numbers from 1 to
-10 without any remainder.
-What is the smallest positive number that is evenly divisible by all of the
-numbers from 1 to 20?
+    PROBLEM 5
+    ---------
+    2520 is the smallest number that can be divided by each of the numbers from
+    1 to 10 without any remainder.
+    What is the smallest positive number that is evenly divisible by all of the
+    numbers from 1 to 20?
 
-Copyright (c) Project Euler
-See: http://projecteuler.net/copyright
+    Copyright (c) Project Euler
+    See: http://projecteuler.net/copyright
 
-SOLUTION
---------
-232792560
+    SOLUTION
+    --------
+    232792560
 
-Copyright (c) 2012, T. Zengerink
-See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
+    Copyright (c) 2012, T. Zengerink
+    See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
 """
-
 from profiler import Profiler
 
 

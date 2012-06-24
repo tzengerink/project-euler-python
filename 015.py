@@ -1,22 +1,22 @@
 #!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
-PROBLEM 15
-----------
-Starting in the top left corner of a 2x2 grid, there are 6 routes (without
-backtracking) to the bottom right corner.
-How many routes are there through a 20x20 grid?
+    PROBLEM 15
+    ----------
+    Starting in the top left corner of a 2x2 grid, there are 6 routes (without
+    backtracking) to the bottom right corner.
+    How many routes are there through a 20x20 grid?
 
-Copyright (c) Project Euler
-See: http://projecteuler.net/copyright
+    Copyright (c) Project Euler
+    See: http://projecteuler.net/copyright
 
-SOLUTION
---------
-137846528820
+    SOLUTION
+    --------
+    137846528820
 
-Copyright (c) 2012, T. Zengerink
-See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
+    Copyright (c) 2012, T. Zengerink
+    See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
 """
-
 from profiler import Profiler
 
 

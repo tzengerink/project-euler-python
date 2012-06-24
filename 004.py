@@ -1,22 +1,22 @@
 #!/usr/bin/env python2
+# -*- coding: utf-8 -*-
 """
-PROBLEM 4
----------
-A palindromic number reads the same both ways. The largest palindrome made from
-the product of two 2-digit numbers is 9009 = 91 99.
-Find the largest palindrome made from the product of two 3-digit numbers.
+    PROBLEM 4
+    ---------
+    A palindromic number reads the same both ways. The largest palindrome made
+    from the product of two 2-digit numbers is 9009 = 91 99.
+    Find the largest palindrome made from the product of two 3-digit numbers.
 
-Copyright (c) Project Euler
-See: http://projecteuler.net/copyright
+    Copyright (c) Project Euler
+    See: http://projecteuler.net/copyright
 
-SOLUTION
---------
-906609
+    SOLUTION
+    --------
+    906609
 
-Copyright (c) 2012, T. Zengerink
-See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
+    Copyright (c) 2012, T. Zengerink
+    See: https://raw.github.com/Mytho/project-euler-python/master/LISENCE
 """
-
 from profiler import Profiler
 
 
