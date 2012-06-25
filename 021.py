@@ -42,7 +42,7 @@ def proper_divisors(n):
     d = sorted(list(set(d)))
     if n in d:
         d.remove(n)
-    return sorted(d)
+    return d
 
 
 def amicable_numbers(n):
