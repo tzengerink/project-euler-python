@@ -43,20 +43,14 @@ class Abundant():
         """Check if a number is an abundant number."""
         return sum(self.proper_divisors(n)) > n
 
-    def is_pair(self, n):
-        """Check if a number is the sum of two abundant numbers."""
-        for x, y in self.parts(n):
-            if x in self.numbers and y in self.numbers:
-                return True
-        return False
-
     def non_pairs(self):
         """Get a list of numbers not the sum of two abundant numbers."""
-        return [x for x in range(1, self.top + 1) if not self.is_pair(x)]
-
-    def parts(self, n):
-       """Get a list of all numeric pairs that sum to N."""
-       return [(x, n - x) for x in range(1, int(floor(n / 2) + 1))]
+        L = set([n for n in range(1, self.top + 1)])
+        for x in self.numbers:
+            for y in self.numbers:
+                if (x + y) in L:
+                    L.remove(x + y)
+        return L
 
     def proper_divisors(self, n):
         """Get a list of all proper divisors of N."""
