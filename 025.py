@@ -35,7 +35,7 @@ from profiler import Profiler
 
 
 def fibonacci(n):
-    """Get all terms of the Fibonacci sequence untill the first term has a
+    """Get all terms of the Fibonacci sequence until the first term has a
     length of N digits."""
     a, b = 1, 1
     f = [a, b]
